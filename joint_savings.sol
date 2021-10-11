@@ -20,8 +20,8 @@ contract JointSavings {
     address payable accountOne;
     address payable accountTwo;
     address public lastToWithdraw;
-    unit public lastWithdrawAmount;
-    unit public contractBalance;
+    uint public lastWithdrawAmount;
+    uint public contractBalance;
 
     /*
     Function named **withdraw** that will accept two arguments.
